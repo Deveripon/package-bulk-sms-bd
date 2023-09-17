@@ -1,24 +1,28 @@
 {
-  "name": "dev-bulk-sms",
-  "version": "0.1.0",
-  "description": "This is Api calling package for bulk sms bd",
-  "main": "index.js",
-  "scripts": {
-    "test": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Deveripon/package-bulk-sms-bd.git"
-  },
-  "keywords": [
-    "bulk",
-    "sms",
-    "bd"
-  ],
-  "author": "devripon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Deveripon/package-bulk-sms-bd/issues"
-  },
-  "homepage": "https://github.com/Deveripon/package-bulk-sms-bd#readme"
+    "name": "bulkmessage",
+    "version": "1.0.0",
+    "description": "This is Api calling package for bulk sms bd",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Deveripon/package-bulk-sms-bd.git"
+    },
+    "keywords": [
+        "bulk",
+        "sms",
+        "bd"
+    ],
+    "author": "devripon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Deveripon/package-bulk-sms-bd/issues"
+    },
+    "homepage": "https://github.com/Deveripon/package-bulk-sms-bd#readme",
+    "dependencies": {
+        "axios": "^1.5.0"
+    }
 }
