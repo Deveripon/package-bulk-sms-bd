@@ -1,8 +1,8 @@
 import axios from "axios";
-const sendSms = (apiKey, receiver, message) => {
+const sendSms = (apiKey, sender, receiver, message) => {
     axios
         .get(
-            `http://bulksmsbd.net/api/smsapi?api_key=${apiKey}&type=text&number=${receiver}&senderid=8809617612985&message=${message}`
+            `http://bulksmsbd.net/api/smsapi?api_key=${apiKey}&type=text&number=${receiver}&senderid=${sender}&message=${message}`
         )
         .then((res) => {})
         .catch((err) => {
