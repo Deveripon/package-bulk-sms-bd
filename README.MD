@@ -27,3 +27,23 @@ import sendSms from "bulkmessage";
 // example:
 sendSms(apiKey, receiver, message);
 ```
+
+### ChangeLog
+
+##### Dynamic Sender Id has added
+
+#### Use
+
+```javascript
+import sendSms from "bulkmessage";
+
+//Use Below function in controller function body with following parameters
+/**
+ * @param{apiKey} Giver Your Api Key
+ * @param{sender} Giver Your sender Id
+ * @param{receiver} Receiver Number
+ * @message{message} Your message
+ */
+// example:
+sendSms(apiKey, sender, receiver, message);
+```
